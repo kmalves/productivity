@@ -14,7 +14,7 @@ h = u/float(60)/float(Decimal(user_imput_day))*100
 print h
 print 'Your productivity for ' + date + ' is ' + str(round(h,1)) + '%.'
 if h < 75:
-    print 'Sorry, your performance is below the required minimum. Limit your bathroom breaks OR YOU WILL GET FIRED!'
+    print 'Sorry, your performance is below the required minimum.'
 if h >= 75 and h < 80:
     print 'Your performance is on target. Keep it up!'
 if h >=80:
